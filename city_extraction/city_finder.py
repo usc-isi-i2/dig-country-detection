@@ -1,12 +1,15 @@
 import ast
 import json
 import codecs
+import re
 
 city_to_country_dict_file = 'city_to_country_dict.json'
 ground_truth_file = 'ground_truth.json'
 output_annotations_file = 'annotations_with_text.json'
 
 names = json.load(codecs.open(city_to_country_dict_file, 'r', 'utf-8'))
+
+names = map(lambda x:x.lower(),names)
 
 single_word = set()
 mul_words = {}
@@ -21,9 +24,11 @@ for city in names:
 		else:
 			mul_words[tokens[0]] = [city]
 
+print("Dictionaries Loaded")
 
 def get_ann_cities(read_text):
-	tokens = read_text.split(" ")
+	read_text = read_text.lower()
+	tokens = re.split(' |,|!',read_text)
 	annotated_cities = []
 	for token in tokens:
 		if token in single_word:
@@ -42,13 +47,9 @@ def city_extractor(line):
 
 file = open(output_annotations_file, "w")
 with open(ground_truth_file, 'r') as f:
-	for line in f:
+	for index,line in enumerate(f):
+		print(index)
 		city_extractor(line)
 		file.write(json.dumps(city_extractor(line)))
 		file.write("\n")
 file.close()
-		
-
-
-
-				
