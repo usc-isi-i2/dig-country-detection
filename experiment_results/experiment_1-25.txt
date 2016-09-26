@@ -1,0 +1,121 @@
+No Distinct Max
+['phoenix']
+{'Mauritius': 1, 'United States': 1}
+Predicted:Mauritius
+Correct:United States
+---------------------------
+Correct Find
+['orlando']
+{'United States': 1}
+United States
+United States
+---------------------------
+No Distinct Max
+['vancouver', 'ottawa']
+{'Canada': 2, 'United States': 2}
+Predicted:Canada
+Correct:Canada
+---------------------------
+No Distinct Max
+['vancouver', 'granville', 'ottawa']
+{'Canada': 2, 'United States': 2, 'Australia': 1}
+Predicted:Canada
+Correct:Canada
+---------------------------
+Correct Find
+['istanbul']
+{'Turkey': 1}
+Turkey
+Turkey
+---------------------------
+Correct Find
+['orlando', 'daytona']
+{'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['istanbul']
+{'Turkey': 1}
+Turkey
+Turkey
+---------------------------
+Correct Find
+['edmonton', 'calgary']
+{'Canada': 2}
+Canada
+Canada
+---------------------------
+No Distinct Max
+['delhi']
+{'India': 1, 'East Timor': 1}
+Predicted:India
+Correct:India
+---------------------------
+No Distinct Max
+['san francisco']
+{'Guatemala': 1, 'United States': 1, 'Argentina': 1, 'Mexico': 1, 'Philippines': 1, 'El Salvador': 1, 'Costa Rica': 1}
+Predicted:Guatemala
+Correct:United States
+---------------------------
+Correct Find
+['bangkok']
+{'Thailand': 1}
+Thailand
+Thailand
+---------------------------
+Correct Find
+['bangalore']
+{'India': 1}
+India
+India
+---------------------------
+No Distinct Max
+['london']
+{'Canada': 1, 'United Kingdom': 1}
+Predicted:Canada
+Correct:United Kingdom
+---------------------------
+Correct Find
+['bangalore']
+{'India': 1}
+India
+India
+---------------------------
+Correct Find
+['sacramento', 'yuba city', 'san francisco', 'long beach', 'new york city', 'manhattan', 'washington dc', 'houston', 'los angeles', 'west hollywood']
+{'Guatemala': 1, 'Brazil': 1, 'Uruguay': 1, 'Mexico': 1, 'Philippines': 1, 'Costa Rica': 1, 'Chile': 1, 'El Salvador': 1, 'United States': 10, 'Argentina': 1}
+United States
+United States
+---------------------------
+Correct Find
+['omaha']
+{'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['shreveport']
+{'United States': 1}
+United States
+United States
+---------------------------
+No Distinct Max
+['london', 'santiago de chile', 'al manama', 'bangalore']
+{'Canada': 1, 'United Kingdom': 1, 'India': 1, 'Chile': 1, 'Bahrain': 1}
+Predicted:Canada
+Correct:India
+---------------------------
+Correct Find
+['istanbul']
+{'Turkey': 1}
+Turkey
+Turkey
+---------------------------
+count_total:25
+count_of_correct_finds:12 [48.0%]
+count_of_incorrect_finds:0 [0.0%]
+count_of_multiple_max_cities:7 [28.000000000000004%]
+count_of_zero_cities:6 [24.0%]
+count_of_single_cities:13 [52.0%]
+count_of_multiple_cities:6 [24.0%]

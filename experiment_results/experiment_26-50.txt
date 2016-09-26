@@ -1,0 +1,157 @@
+Correct Find
+['portland']
+{'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['orlando']
+{'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['bangalore']
+{'India': 1}
+India
+India
+---------------------------
+Correct Find
+['montreal']
+{'Canada': 1}
+Canada
+Canada
+---------------------------
+Correct Find
+['colorado springs']
+{'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['kansas city']
+{'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['edmonton']
+{'Canada': 1}
+Canada
+Canada
+---------------------------
+Correct Find
+['portland', 'vancouver']
+{'Canada': 1, 'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['manhattan', 'new york', 'osaka']
+{'Japan': 1, 'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['delhi', 'noida', 'gurgaon']
+{'India': 3, 'East Timor': 1}
+India
+India
+---------------------------
+Correct Find
+['bangkok']
+{'Thailand': 1}
+Thailand
+Thailand
+---------------------------
+Correct Find
+['new york', 'bronx', 'manhattan', 'westchester']
+{'United States': 4}
+United States
+United States
+---------------------------
+No Distinct Max
+['london', 'santiago', 'bangalore', 'manama']
+{'Brazil': 1, 'Philippines': 1, 'Panama': 1, 'Spain': 1, 'El Salvador': 1, 'Mexico': 1, 'Guatemala': 1, 'Cuba': 1, 'Bahrain': 1, 'India': 1, 'Chile': 1, 'United Kingdom': 1, 'Dominican Republic': 1}
+Predicted:Brazil
+Correct:United Kingdom
+---------------------------
+Correct Find
+['auburn', 'victoria', 'albuquerque']
+{'Argentina': 1, 'Philippines': 1, 'Mexico': 1, 'Brazil': 1, 'United States': 3, 'Hong Kong': 1, 'Australia': 1, 'Cuba': 1, 'Cameroon': 1, 'Canada': 1, 'Malaysia': 1, 'Chile': 1, 'Seychelles': 1}
+United States
+United States
+---------------------------
+Incorrect Find
+['san juan', 'puerto rico', 'kansas city', 'hong kong']
+{'Argentina': 2, 'Mexico': 1, 'Dominican Republic': 1, 'United States': 1, 'Puerto Rico': 1, 'Costa Rica': 1, 'Philippines': 1, 'Colombia': 1, 'Hong Kong': 1, 'Spain': 1}
+Predicted:Argentina
+Correct:United States
+---------------------------
+Correct Find
+['daytona']
+{'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['burien', 'seattle']
+{'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['el paso']
+{'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['shreveport', 'brooklyn']
+{'United States': 2}
+United States
+United States
+---------------------------
+No Distinct Max
+['logan', 'johannesburg', 'owo']
+{'Australia': 1, 'Nigeria': 1, 'South Africa': 1, 'United States': 1}
+Predicted:Australia
+Correct:South Africa
+---------------------------
+Correct Find
+['omaha']
+{'United States': 1}
+United States
+United States
+---------------------------
+No Distinct Max
+['florida', 'los angeles']
+{'Uruguay': 1, 'Colombia': 1, 'Chile': 1, 'Cuba': 1, 'United States': 1}
+Predicted:Uruguay
+Correct:United States
+---------------------------
+Correct Find
+['detroit', 'madison heights']
+{'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['seoul']
+{'South Korea': 1}
+South Korea
+South Korea
+---------------------------
+Correct Find
+['salt lake city', 'toronto', 'barcelona', 'san francisco', 'oakland', 'cleveland', 'lorain', 'elyria', 'los angeles', 'west hollywood']
+{'Argentina': 1, 'El Salvador': 1, 'Guatemala': 1, 'Mexico': 1, 'Canada': 1, 'United States': 8, 'Venezuela': 1, 'Costa Rica': 1, 'Philippines': 1, 'Chile': 1, 'Spain': 1}
+United States
+United States
+---------------------------
+count_total:25
+count_of_correct_finds:21 [84.0%]
+count_of_incorrect_finds:1 [4.0%]
+count_of_multiple_max_cities:3 [12.0%]
+count_of_zero_cities:0 [0.0%]
+count_of_single_cities:12 [48.0%]
+count_of_multiple_cities:13 [52.0%]
