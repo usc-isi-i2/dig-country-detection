@@ -1,0 +1,207 @@
+Correct Find
+['portland']
+['oregon']
+['portland']
+{u'United States': 3}
+United States
+United States
+---------------------------
+Correct Find
+['orlando']
+[]
+['orlando']
+{u'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['bangalore']
+[]
+[]
+{u'India': 1}
+India
+India
+---------------------------
+Correct Find
+['montreal']
+[]
+['montreal']
+{u'Canada': 2}
+Canada
+Canada
+---------------------------
+Correct Find
+['colorado springs']
+['colorado']
+[]
+{u'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['kansas city']
+['kansas']
+['kansas city']
+{u'United States': 3}
+United States
+United States
+---------------------------
+Correct Find
+['edmonton']
+[]
+[]
+{u'Canada': 1}
+Canada
+Canada
+---------------------------
+No Distinct Max
+['portland', 'vancouver']
+[]
+[]
+{u'United States': 1, u'Canada': 1}
+Predicted:United States
+Correct:United States
+---------------------------
+Correct Find
+['manhattan', 'new york', 'osaka']
+['new york']
+['new york', 'manhattan']
+{u'United States': 5, u'Japan': 1}
+United States
+United States
+---------------------------
+Correct Find
+['delhi', 'noida', 'gurgaon']
+[]
+['new delhi']
+{u'India': 4}
+India
+India
+---------------------------
+Correct Find
+['bangkok']
+['bangkok']
+['bangkok']
+{u'Thailand': 3}
+Thailand
+Thailand
+---------------------------
+Correct Find
+['new york', 'bronx', 'manhattan', 'westchester']
+['new york']
+[]
+{u'United States': 5}
+United States
+United States
+---------------------------
+No Distinct Max
+['london', 'santiago', 'bangalore', 'manama']
+[]
+[]
+{u'United Kingdom': 1, u'Bahrain': 1, u'India': 1, u'Chile': 1}
+Predicted:United Kingdom
+Correct:United Kingdom
+---------------------------
+Correct Find
+['auburn', 'victoria', 'albuquerque']
+[]
+['albuquerque', 'auburn']
+{u'United States': 4, u'Hong Kong': 1}
+United States
+United States
+---------------------------
+No Distinct Max
+['san juan', 'puerto rico', 'kansas city', 'hong kong']
+['san juan', 'kansas']
+[]
+{u'United States': 2, u'Argentina': 2, u'Hong Kong': 1, u'Dominican Republic': 1, u'Puerto Rico': 1}
+Predicted:United States
+Correct:United States
+---------------------------
+Correct Find
+['daytona']
+[]
+[]
+{u'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['burien', 'seattle']
+[]
+['seattle']
+{u'United States': 3}
+United States
+United States
+---------------------------
+Correct Find
+['el paso']
+[]
+[]
+{u'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['shreveport', 'brooklyn']
+[]
+['shreveport']
+{u'United States': 3}
+United States
+United States
+---------------------------
+Correct Find
+['johannesburg']
+[]
+[]
+{u'South Africa': 1}
+South Africa
+South Africa
+---------------------------
+Correct Find
+['omaha']
+[]
+['omaha']
+{u'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['florida', 'los angeles']
+['florida']
+[]
+{u'United States': 2, u'Puerto Rico': 1, u'Uruguay': 1, u'Cuba': 1}
+United States
+United States
+---------------------------
+Correct Find
+['detroit', 'madison heights']
+[]
+[]
+{u'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['seoul']
+['seoul']
+['seoul']
+{u'South Korea': 3}
+South Korea
+South Korea
+---------------------------
+Correct Find
+['salt lake city', 'toronto', 'barcelona', 'san francisco', 'oakland', 'cleveland', 'lorain', 'elyria', 'los angeles', 'west hollywood']
+[]
+['salt lake']
+{u'United States': 9, u'Canada': 1, u'Spain': 1}
+United States
+United States
+---------------------------
+count_total:25
+count_of_correct_finds:22 [88.0%]
+count_of_incorrect_finds:0 [0.0%]
+count_of_multiple_max_cities:3 [12.0%]
+count_of_zero_cities:0 [0.0%]
+count_of_single_cities:13 [52.0%]
+count_of_multiple_cities:12 [48.0%]

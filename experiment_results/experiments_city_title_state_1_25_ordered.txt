@@ -1,0 +1,159 @@
+Correct Find
+['phoenix']
+[]
+[]
+{u'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['orlando']
+[]
+['orlando']
+{u'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['vancouver', 'ottawa']
+['british columbia', 'maritime']
+[]
+{u'Canada': 3, u'Togo': 1}
+Canada
+Canada
+---------------------------
+Correct Find
+['vancouver', 'granville', 'ottawa']
+['british columbia', 'maritime']
+[]
+{u'Canada': 3, u'Togo': 1, u'Australia': 1}
+Canada
+Canada
+---------------------------
+Correct Find
+['istanbul']
+['istanbul']
+[]
+{u'Turkey': 2}
+Turkey
+Turkey
+---------------------------
+Correct Find
+['orlando', 'daytona']
+['florida']
+['orlando']
+{u'United States': 4, u'Puerto Rico': 1, u'Uruguay': 1}
+United States
+United States
+---------------------------
+Correct Find
+['istanbul']
+['istanbul']
+['istanbul']
+{u'Turkey': 3}
+Turkey
+Turkey
+---------------------------
+Correct Find
+['edmonton', 'calgary']
+[]
+[]
+{u'Canada': 2}
+Canada
+Canada
+---------------------------
+Correct Find
+['delhi']
+[]
+['delhi']
+{u'India': 2}
+India
+India
+---------------------------
+Correct Find
+['san francisco']
+[]
+[]
+{u'United States': 1}
+United States
+United States
+---------------------------
+Correct Find
+['bangkok']
+['bangkok']
+['bangkok']
+{u'Thailand': 3}
+Thailand
+Thailand
+---------------------------
+Correct Find
+['bangalore']
+[]
+[]
+{u'India': 1}
+India
+India
+---------------------------
+Correct Find
+['london']
+[]
+['london']
+{u'United Kingdom': 2}
+United Kingdom
+United Kingdom
+---------------------------
+Correct Find
+['bangalore']
+[]
+[]
+{u'India': 1}
+India
+India
+---------------------------
+Correct Find
+['sacramento', 'yuba city', 'san francisco', 'long beach', 'new york city', 'manhattan', 'washington dc', 'houston', 'los angeles', 'west hollywood']
+['new york', 'washington', 'california']
+['sacramento']
+{u'United States': 14}
+United States
+United States
+---------------------------
+Correct Find
+['omaha']
+[]
+['omaha']
+{u'United States': 2}
+United States
+United States
+---------------------------
+Correct Find
+['shreveport']
+['california']
+['shreveport']
+{u'United States': 3}
+United States
+United States
+---------------------------
+Incorrect Find
+['london', 'santiago de chile', 'al manama', 'bangalore']
+['santiago', 'manama', 'st john']
+[]
+{u'Bahrain': 2, u'India': 1, u'United Kingdom': 1, u'Chile': 1, u'Dominican Republic': 1, u'Jersey': 1}
+Predicted:Bahrain
+Correct:India
+---------------------------
+Correct Find
+['istanbul']
+['istanbul']
+[]
+{u'Turkey': 2}
+Turkey
+Turkey
+---------------------------
+count_total:25
+count_of_correct_finds:18 [72.0%]
+count_of_incorrect_finds:1 [4.0%]
+count_of_multiple_max_cities:0 [0.0%]
+count_of_zero_cities:6 [24.0%]
+count_of_single_cities:13 [52.0%]
+count_of_multiple_cities:6 [24.0%]
